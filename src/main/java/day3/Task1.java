@@ -23,9 +23,9 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String nameCity;
+
         while (true) {
-            nameCity = scanner.nextLine();
+            String nameCity = scanner.nextLine();
             if (nameCity.equals("Stop"))
                 break;
             switch (nameCity) {
