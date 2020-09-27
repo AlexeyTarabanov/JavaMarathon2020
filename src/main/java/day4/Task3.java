@@ -29,7 +29,7 @@ public class Task3 {
 
         int max = 0;
         int sum = 0;
-        int string = 0;
+        int index = 0;
 
         for (int i = 0; i < mas.length; i++) {
             for (int j = 0; j < mas[i].length; j++) {
@@ -39,11 +39,11 @@ public class Task3 {
             //System.out.println(" сумма " + i + " - " + sum);
             if (sum >= max) {
                 max = sum;
-                string = i;
+                index = i;
             }
             sum = 0;
             //System.out.println();
         }
-        System.out.println(string);
+        System.out.println(index);
     }
 }

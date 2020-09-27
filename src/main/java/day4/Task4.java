@@ -29,7 +29,6 @@ public class Task4 {
         Random random = new Random();
         int[] mas = new int[100];
 
-        int sum = 0;
         int maxSum = 0;
         int element = 0;
 
@@ -37,12 +36,8 @@ public class Task4 {
             mas[i] = random.nextInt(10000);
         }
 
-        for (int i = 0; i < mas.length; i++) {
-            if (i != mas.length-2){
-                sum = mas[i] + mas[i + 1] + mas[i + 2];
-            } else {
-                break;
-            }
+        for (int i = 0; i < mas.length-2; i++) {
+            int sum = mas[i] + mas[i + 1] + mas[i + 2];
 
             if (sum > maxSum) {
                 maxSum = sum;
