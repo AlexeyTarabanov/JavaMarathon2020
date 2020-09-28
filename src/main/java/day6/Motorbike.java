@@ -28,6 +28,6 @@ public class Motorbike {
     }
 
     public int yearDifference(int year) {
-        return this.manufactureYear - year;
+        return Math.abs(manufactureYear - year);
     }
 }

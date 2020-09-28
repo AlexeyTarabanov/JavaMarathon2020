@@ -24,7 +24,7 @@ public class Task2 {
         }
 
         int max = 0;
-        int min = mas[0];
+        int min = Integer.MAX_VALUE;
         int countZero = 0;
         int sum = 0;
 

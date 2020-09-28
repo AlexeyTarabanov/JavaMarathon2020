@@ -40,6 +40,7 @@ public class Car {
     }
 
     public int yearDifference(int year) {
-        return year - this.year;
+        //Math.abs - возвращает абсолютное значение числа
+        return Math.abs(year - this.year);
     }
 }
