@@ -1,4 +1,4 @@
-package day7;
+package day8;
 
 public class Airplane {
     private String producer;
@@ -46,5 +46,11 @@ public class Airplane {
         } else {
             System.out.println("Второй самолет длиннее");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Изготовитель: " + producer + ", год выпуска: " + year +
+                ", длина: " + length + ", вес: " + weight + ", количество топлива в баке: " + fuel;
     }
 }
