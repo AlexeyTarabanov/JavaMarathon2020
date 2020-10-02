@@ -44,7 +44,7 @@ public class Task1 {
         System.out.println("Зарплата курьера - " + courier_1.getSalary()); //получил бонус
         System.out.println(warehouse_1);
 
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 1000; i++) {
             picker_1.doWork(); //80000
             picker_1.bonus();
             courier_1.doWork(); //150000
