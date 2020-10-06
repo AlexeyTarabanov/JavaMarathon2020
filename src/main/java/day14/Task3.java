@@ -42,13 +42,14 @@ public class Task3 {
                     throw new IOException();
                 }
             }
+            return list;
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         } catch (IOException e) {
             System.out.println("Некорректный входной файл");
         }
 
-        return list;
+        return null;
     }
 }
 
