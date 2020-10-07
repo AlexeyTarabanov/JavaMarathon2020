@@ -38,6 +38,7 @@ public class Task1 {
 
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
+            System.out.println(line);
             String[] numbers = line.split(";");
             int amount = Integer.parseInt(numbers[2]);
             if (amount == 0)
